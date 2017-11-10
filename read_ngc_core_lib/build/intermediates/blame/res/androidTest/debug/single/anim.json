@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/anim/bottom_exit.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/anim/bottom_exit.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/anim/slide_in_right.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/anim/stay.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/anim/stay.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/anim/slide_out_right.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/anim/bottom_enter.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/anim/bottom_enter.xml"
+    }
+]

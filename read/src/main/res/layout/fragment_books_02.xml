@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#D0CCC7" >
+    </View>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/layout_search_bar" />
+
+            <include layout="@layout/layout_select_bar" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <LinearLayout style="@style/book_item_linearlayout" >
+
+                <LinearLayout style="@style/book_item_title_linearlayout" >
+
+                    <TextView
+                        style="@style/book_item_type"
+                        android:text="儿童读物" />
+
+                    <TextView
+                        android:id="@+id/book_etdw_more"
+                        style="@style/book_item_more" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/book_item_body_linearlayout" >
+
+                    <LinearLayout
+                        android:id="@+id/book_etdw_01"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_etdw_01_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_etdw_01_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_etdw_02"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_etdw_02_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_etdw_02_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_etdw_03"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_etdw_03_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_etdw_03_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_etdw_04"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_etdw_04_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_etdw_04_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_etdw_05"
+                        style="@style/book_linearlayout"
+                        android:layout_marginRight="0dip" >
+
+                        <ImageView
+                            android:id="@+id/book_etdw_05_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_etdw_05_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <LinearLayout style="@style/book_item_linearlayout" >
+
+                <LinearLayout style="@style/book_item_title_linearlayout" >
+
+                    <TextView
+                        style="@style/book_item_type"
+                        android:text="少儿精选" />
+
+                    <TextView
+                        android:id="@+id/book_sejx_more"
+                        style="@style/book_item_more" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/book_item_body_linearlayout" >
+
+                    <LinearLayout
+                        android:id="@+id/book_sejx_01"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_sejx_01_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_sejx_01_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_sejx_02"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_sejx_02_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_sejx_02_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_sejx_03"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_sejx_03_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_sejx_03_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_sejx_04"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_sejx_04_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_sejx_04_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_sejx_05"
+                        style="@style/book_linearlayout"
+                        android:layout_marginRight="0dip" >
+
+                        <ImageView
+                            android:id="@+id/book_sejx_05_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_sejx_05_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="#D0CCC7" >
+            </View>
+
+            <LinearLayout style="@style/book_item_linearlayout" >
+
+                <LinearLayout style="@style/book_item_title_linearlayout" >
+
+                    <TextView
+                        style="@style/book_item_type"
+                        android:text="青年书籍" />
+
+                    <TextView
+                        android:id="@+id/book_qnsj_more"
+                        style="@style/book_item_more" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/book_item_body_linearlayout" >
+
+                    <LinearLayout
+                        android:id="@+id/book_qnsj_01"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_qnsj_01_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_qnsj_01_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_qnsj_02"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_qnsj_02_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_qnsj_02_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_qnsj_03"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_qnsj_03_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_qnsj_03_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_qnsj_04"
+                        style="@style/book_linearlayout" >
+
+                        <ImageView
+                            android:id="@+id/book_qnsj_04_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_qnsj_04_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/book_qnsj_05"
+                        style="@style/book_linearlayout"
+                        android:layout_marginRight="0dip" >
+
+                        <ImageView
+                            android:id="@+id/book_qnsj_05_img"
+                            style="@style/book_img" />
+
+                        <TextView
+                            android:id="@+id/book_qnsj_05_name"
+                            style="@style/book_name" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#D0CCC7" >
+            </View>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FriendHelpMainLinearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/read_bg_color</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="home_bar_element">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="home_bar_img">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="home_bar_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/home_bar_text_color_selector</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="vip_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">#E4D9D1</item>
+    </style>
+
+    <style name="vip_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="vip_left_img">
+        <item name="android:layout_width">20dip</item>
+        <item name="android:layout_height">20dip</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="vip_left_tv">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="vip_right_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:textColor">#9A9691</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="vip_right_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:textColor">#9A9691</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="read_btn_green">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:background">@drawable/btn_bg_green_transparent</item>
+        <item name="android:textColor">@drawable/btn_text_color_white_green</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="book_item_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="book_item_title_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="book_item_type">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="book_item_more">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@string/more</item>
+    </style>
+
+    <style name="book_item_body_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="book_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="book_img">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:src">@drawable/test_book_01</item>
+    </style>
+
+    <style name="book_name">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="child_left_tv">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+
+    <style name="child_right_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 半透明背景Theme -->
+    <style name="BottomViewTheme_Defalut">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="@android:windowEnterAnimation">@anim/bottom_view_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_view_exit</item>
+    </style>
+
+    <style name="BottomToTopAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottom_view_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_view_exit</item>
+    </style>
+
+</resources>

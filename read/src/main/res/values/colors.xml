@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="read_color">#42C350</color>
+    <color name="read_bg_color">#FBF7F4</color>
+    <color name="stroke_gray_color">#E6E4E1</color>
+    <color name="item_pressed_color">#e1e3e2</color>
+
+</resources>

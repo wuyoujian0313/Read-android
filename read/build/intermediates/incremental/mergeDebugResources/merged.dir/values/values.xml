@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color">#EDEDED</color>
+    <color name="city_list_header_grgray">#c7c7c7</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="grgray">#686868</color>
+    <color name="header">#58567D</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="home_bg">#018263</color>
+    <color name="item_pressed_color">#e1e3e2</color>
+    <color name="ngc_color">#42C350</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="read_bg_color">#FBF7F4</color>
+    <color name="read_color">#42C350</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="stroke_gray_color">#E6E4E1</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <declare-styleable name="SegmentControl"><attr format="dimension|reference" name="cornerRadius"/><attr format="color|reference" name="colors"/><attr format="string|reference" name="texts"/><attr name="android:textSize"/><attr format="enum" name="direction">
+            <enum name="horizon" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr><attr format="dimension|reference" name="gaps"/><attr format="dimension|reference" name="horizonGap"/><attr format="dimension|reference" name="verticalGap"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="book_heigh">120dp</dimen>
+    <dimen name="drawable_ring_size">2dp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="padding_bottom">37dp</dimen>
+    <dimen name="switch_button_height">30dp</dimen>
+    <dimen name="switch_button_width">50dp</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <string name="NULL"/>
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMIgnore">Ingore this</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateCheck">2.4.2.20140520</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">阅读树</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="more">更多</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_finish">Download finished,click to install it.</string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_common_patch_finish">Patch finished,click to install it.</string>
+    <string name="umeng_common_pause_notification_prefix">Pause: </string>
+    <string name="umeng_common_silent_download_finish">New version is ready,click to install it.</string>
+    <string name="umeng_common_start_download_notification">Download start.</string>
+    <string name="umeng_common_start_patch_notification">Patch start.</string>
+    <string name="umeng_fb_back">返回</string>
+    <string name="umeng_fb_contact_info">联系方式</string>
+    <string name="umeng_fb_contact_info_hint">QQ, 电话等我们能联系您的联系方式</string>
+    <string name="umeng_fb_contact_title">填写联系信息</string>
+    <string name="umeng_fb_contact_update_at">更新于 </string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">收到来自开发者的 %d 条回复。</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">新回复: %s</string>
+    <string name="umeng_fb_notification_ticker_text">有新的回复</string>
+    <string name="umeng_fb_reply_content_default">你好， 我是产品经理，欢迎您反馈使用产品的感受和建议</string>
+    <string name="umeng_fb_reply_content_hint">我想说</string>
+    <string name="umeng_fb_reply_date_default">2013年3月12日 13:24:00</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_title">用户反馈</string>
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/stay</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="BottomToTopAnim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/bottom_view_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_view_exit</item>
+    </style>
+    <style name="BottomViewTheme_Defalut">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="@android:windowEnterAnimation">@anim/bottom_view_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_view_exit</item>
+    </style>
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="FriendHelpMainLinearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/read_bg_color</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="NGCTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="book_img">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:src">@drawable/test_book_01</item>
+    </style>
+    <style name="book_item_body_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="book_item_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="book_item_more">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:text">@string/more</item>
+    </style>
+    <style name="book_item_title_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="book_item_type">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="book_linearlayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="book_name">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="child_left_tv">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+    <style name="child_right_tv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="home_bar_element">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="home_bar_img">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">35dip</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="home_bar_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/home_bar_text_color_selector</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="ngc_main_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="read_btn_green">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:background">@drawable/btn_bg_green_transparent</item>
+        <item name="android:textColor">@drawable/btn_text_color_white_green</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="share_dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="@android:windowEnterAnimation">@anim/bottom_enter</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_exit</item>
+    </style>
+    <style name="vip_left_img">
+        <item name="android:layout_width">20dip</item>
+        <item name="android:layout_height">20dip</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+    <style name="vip_left_tv">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginRight">10dip</item>
+    </style>
+    <style name="vip_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">#E4D9D1</item>
+    </style>
+    <style name="vip_linearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+    <style name="vip_right_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:textColor">#9A9691</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="vip_right_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:textColor">#9A9691</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

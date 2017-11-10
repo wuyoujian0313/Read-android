@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <com.read.mobile.views.segmentcontrol.SegmentControl
+            xmlns:read="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segment_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            read:colors="@color/ngc_color"
+            read:cornerRadius="5dip"
+            read:direction="horizon"
+            read:horizonGap="50dip"
+            read:texts="文字|语音"
+            read:verticalGap="8dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <View
+            style="@style/vip_line"
+            android:layout_marginTop="10dp" />
+
+        <com.ngc.corelib.views.xlist.XListView
+            android:id="@+id/note_wenzi_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp" >
+        </com.ngc.corelib.views.xlist.XListView>
+
+        <com.ngc.corelib.views.xlist.XListView
+            android:id="@+id/note_voice_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="#E4D9D1"
+            android:dividerHeight="1dp"
+            android:visibility="gone" >
+        </com.ngc.corelib.views.xlist.XListView>
+
+        <View style="@style/vip_line" />
+    </LinearLayout>
+
+</LinearLayout>

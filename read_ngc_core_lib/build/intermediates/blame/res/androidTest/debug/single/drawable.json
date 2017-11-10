@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/dialog_bg.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/round_background_press_dark_center.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/round_background_press_dark_center.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/loading_progress.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/loading_progress.png"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/base_pull_list_msg_indicator_arrow_up_drawable.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/base_pull_list_msg_indicator_arrow_up_drawable.png"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/round_background_press_dark.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/round_background_press_dark.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/round_background.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/round_background.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/selector_round_btn_left.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/selector_round_btn_left.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/round_background_press.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/round_background_press.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/round_background_press_dark_left.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/round_background_press_dark_left.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/selector_round_btn.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/selector_round_btn.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/ngc_dialog_bg.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/ngc_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/base_pull_list_msg_indicator_arrow_down_drawable.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/base_pull_list_msg_indicator_arrow_down_drawable.png"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/drawable/selector_round_btn_center.xml",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read_ngc_core_lib/build/intermediates/bundles/debug/res/drawable/selector_round_btn_center.xml"
+    }
+]

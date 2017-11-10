@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <com.ngc.corelib.views.xlist.XListView
+        android:id="@+id/book_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dip"
+        android:divider="@null"
+        android:dividerHeight="10dip" >
+    </com.ngc.corelib.views.xlist.XListView>
+
+</LinearLayout>

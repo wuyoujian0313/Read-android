@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout"
+    android:background="@drawable/login_bg"
+    android:gravity="center" >
+
+    <include
+        layout="@layout/layout_title_bar"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yuedushu_green" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ad" />
+
+</LinearLayout>

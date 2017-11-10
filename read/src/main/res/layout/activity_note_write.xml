@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/write_book_view"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/note_write_img"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test_book_cover" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/note_write_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="围城"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/note_write_author"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="作者：库克"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/note_write_press"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="出版社：北京图书出版社"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/note_write_btn"
+            style="@style/read_btn_green"
+            android:layout_margin="10dp"
+            android:text="选择书目" />
+
+        <Button
+            android:id="@+id/note_takephoto_btn"
+            style="@style/read_btn_green"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="封面拍照"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/note_write_et"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="start"
+            android:hint="请在此输入您的笔记"
+            android:lineSpacingExtra="8dp"
+            android:padding="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

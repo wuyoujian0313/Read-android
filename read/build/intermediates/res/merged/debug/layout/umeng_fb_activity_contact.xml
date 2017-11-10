@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FriendHelpMainLinearlayout"
+    android:background="@color/read_bg_color" >
+
+    <RelativeLayout
+        android:id="@+id/umeng_fb_contact_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/read_color" >
+
+        <ImageView
+            android:id="@+id/umeng_fb_back"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/umeng_fb_back_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="您的联系方式"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/umeng_fb_save"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/umeng_fb_tick_selector" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/umeng_fb_contact_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dip"
+        android:background="@drawable/bg_rect_gray_stroke"
+        android:gravity="left|top"
+        android:hint="请输入您的联系方式"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/umeng_fb_contact_update_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/umeng_fb_contact_update_at"
+        android:textColor="#333333"
+        android:textSize="8sp"
+        android:visibility="gone" />
+
+</LinearLayout> <!-- From: file:/Users/lucas/dev/workspace/umeng/feedback/umeng-feedback-android/sdk/src/main/res/layout/umeng_fb_activity_contact.xml -->

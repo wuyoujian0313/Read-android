@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FriendHelpMainLinearlayout" >
+
+    <include
+        layout="@layout/layout_title_bar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/buttom_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/read_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/main_shucheng_ll"
+            style="@style/home_bar_element" >
+
+            <ImageView
+                android:id="@+id/main_shucheng_iv"
+                style="@style/home_bar_img"
+                android:src="@drawable/bar_shucheng" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_shumu_ll"
+            style="@style/home_bar_element" >
+
+            <ImageView
+                android:id="@+id/main_shumu_iv"
+                style="@style/home_bar_img"
+                android:src="@drawable/bar_shumu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_biji_ll"
+            style="@style/home_bar_element" >
+
+            <ImageView
+                android:id="@+id/main_biji_iv"
+                style="@style/home_bar_img"
+                android:src="@drawable/bar_biji" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_huiyuan_ll"
+            style="@style/home_bar_element" >
+
+            <ImageView
+                android:id="@+id/main_huiyuan_iv"
+                style="@style/home_bar_img"
+                android:src="@drawable/bar_huiyuan" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/buttom_bar_group"
+        android:background="#E2E0DB" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line" />
+
+</RelativeLayout>
