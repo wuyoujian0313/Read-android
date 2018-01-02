@@ -64,12 +64,12 @@ public class AudioRecordMedia {
 			 * 在prepare之前。
 			 * OutputFormat内部类，定义了音频输出的格式，主要包含MPEG_4、THREE_GPP、RAW_AMR……等。
 			 */
-			recorder.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
+			recorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
 			/**
 			 * mediaRecorder.setAddioEncoder()方法可以设置音频的编码
 			 * AudioEncoder内部类详细定义了两种编码：AudioEncoder.DEFAULT、AudioEncoder.AMR_NB
 			 */
-			recorder.setAudioEncoder(MediaRecorder.AudioEncoder.DEFAULT);
+			recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
 		}
 
 		/**

@@ -211,7 +211,7 @@ public class InfoEditActivity extends BaseActivity {
 		}
 		UpdateUserInfoRequest request = new UpdateUserInfoRequest();
 		request.setNick(nick);
-		request.setMood(mood);
+		request.setMood("啊啊啊啊");
 
 		NetAsyncTask asyncTask = new NetAsyncTask(UpdateUserInfoResult.class, new AsyncTaskListener() {
 			@Override

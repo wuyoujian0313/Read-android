@@ -28,12 +28,12 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/icon_setting.png"
     },
     {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/talk2.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/talk2.png"
-    },
-    {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/talk2.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/talk2.png"
     },
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/shujia_bg.png",
@@ -192,6 +192,10 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/title_bar.png"
     },
     {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_red.9.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/book_detail_bar_red.9.png"
+    },
+    {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/ic_share_qq.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/ic_share_qq.png"
     },
@@ -200,8 +204,8 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/radio_select.png"
     },
     {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/bg_shucheng.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/bg_shucheng.png"
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_white.9.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/book_detail_bar_white.9.png"
     },
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/new_start_audio_record_normal.png",
@@ -210,10 +214,6 @@
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bg_.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/book_detail_bg_.png"
-    },
-    {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_white.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/book_detail_bar_white.png"
     },
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/login_bg.png",
@@ -248,16 +248,12 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/talk6.png"
     },
     {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_red.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/book_detail_bar_red.png"
-    },
-    {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/talk3.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/talk3.png"
     },
     {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/voice_bg.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/voice_bg.png"
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/speaker_cancel_text_bg.9.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.9.png"
     },
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/icon_edit_gray.png",
@@ -276,6 +272,10 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/icon_shumu_select.png"
     },
     {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/bg_shucheng.9.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/bg_shucheng.9.png"
+    },
+    {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/ad.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/ad.png"
     },
@@ -288,12 +288,12 @@
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f2.png"
     },
     {
-        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/speaker_cancel_text_bg.png",
-        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.png"
-    },
-    {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/chatto_voice_playing_f1_.png",
         "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f1_.png"
+    },
+    {
+        "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/voice_bg.9.png",
+        "source": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/src/main/res/drawable-xhdpi/voice_bg.9.png"
     },
     {
         "merged": "/Users/wuyj/Desktop/项目/培祥项目/Read-android/read/build/intermediates/res/merged/debug/drawable-xhdpi/icon_huiyuan_select.png",
