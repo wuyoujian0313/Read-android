@@ -155,6 +155,23 @@ public class PicDialogUtils {
 		permissionUitls.permssionCheck(permissionCode,permissions);
 	}
 
+	//请求相册
+	private static void checkPermission1(final String functionName, int permissionCode, String[] permissions) {
+		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
+			@Override
+			public void permissionAgree() {
+				openAlbum();
+			}
+
+			@Override
+			public void permissionReject() {
+
+			}
+		};
+		PermissionUitls permissionUitls = PermissionUitls.getInstance(null, permissionListener);
+		permissionUitls.permssionCheck(permissionCode,permissions);
+	}
+
 	public static void takePhoto() {
 
 //		// 调用系统的拍照功能
@@ -193,8 +210,32 @@ public class PicDialogUtils {
 
 	private static void startImageCaptrue(Activity activity) {
 		// TODO Auto-generated method stub
-		Intent intent = new Intent(Intent.ACTION_PICK, null);
+
+		final String checkPermissinos[] = {
+				Manifest.permission.WRITE_EXTERNAL_STORAGE};
+		PermissionUitls.mContext = activity;
+		if(!PermissionUitls.isGetAllPermissionsByList(checkPermissinos) ) {
+			new AlertDialog
+					.Builder(activity)
+					.setTitle("提示信息")
+					.setMessage("该功能需要您接受应用对一些关键权限（相册）的申请，如之前拒绝过，可到手机系统的应用管理授权设置界面再次设置。")
+					.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							checkPermission1("takephoto",PermissionUitls.PERMISSION_STORAGE_CODE,checkPermissinos);
+						}
+					}).show();
+		} else {
+			openAlbum();
+		}
+
+
+	}
+
+	private static void openAlbum() {
+		Intent intent = new Intent(Intent.ACTION_PICK);
 		intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
 		activity.startActivityForResult(intent, PHOTO_PICKED_WITH_DATA);
+
 	}
 }
