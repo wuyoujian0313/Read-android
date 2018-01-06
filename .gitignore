@@ -4,3 +4,5 @@ read_ngc_core_lib/build
 .gradle
 .idea
 
+
+*.iml
