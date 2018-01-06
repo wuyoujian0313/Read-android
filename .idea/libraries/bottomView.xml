@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="bottomView">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/read/libs/bottomView.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
