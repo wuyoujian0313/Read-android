@@ -142,6 +142,40 @@ public class NoteVoiceActivity extends BaseActivity implements OnClickListener {
 		}
 	}
 
+	//请求麦克
+	private void checkPermission1(final String functionName, int permissionCode, String[] permissions) {
+		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
+			@Override
+			public void permissionAgree() {
+				stopPlaying();// 开始录音时如果有正在播放的语言，则停止
+				startRecording();
+			}
+
+			@Override
+			public void permissionReject() {
+
+			}
+		};
+		PermissionUitls permissionUitls = PermissionUitls.getInstance(null, permissionListener);
+		permissionUitls.permssionCheck(permissionCode,permissions);
+	}
+	//请求播放权限
+	private void checkPermission2(final String functionName, int permissionCode, String[] permissions) {
+		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
+			@Override
+			public void permissionAgree() {
+				playAudio();
+			}
+
+			@Override
+			public void permissionReject() {
+
+			}
+		};
+		PermissionUitls permissionUitls = PermissionUitls.getInstance(null, permissionListener);
+		permissionUitls.permssionCheck(permissionCode,permissions);
+	}
+
 	//请求相机权限
 	private void checkPermission(final String functionName, int permissionCode, String[] permissions) {
 		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
@@ -265,10 +299,29 @@ public class NoteVoiceActivity extends BaseActivity implements OnClickListener {
 						}
 					}, 500);
 					break;
-				case MotionEvent.ACTION_DOWN:
+				case MotionEvent.ACTION_DOWN: {
 					Logger.e("event.getAction()==MotionEvent.ACTION_DOWN");
-					stopPlaying();// 开始录音时如果有正在播放的语言，则停止
-					startRecording();
+
+					final String checkPermissinos[] = {Manifest.permission.RECORD_AUDIO,
+							Manifest.permission.WRITE_EXTERNAL_STORAGE};
+					PermissionUitls.mContext = NoteVoiceActivity.this;
+					if(!PermissionUitls.isGetAllPermissionsByList(checkPermissinos) ) {
+						new AlertDialog
+								.Builder(NoteVoiceActivity.this)
+								.setTitle("提示信息")
+								.setMessage("该功能需要您接受应用对一些关键权限（麦克）的申请，如之前拒绝过，可到手机系统的应用管理授权设置界面再次设置。")
+								.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+									@Override
+									public void onClick(DialogInterface dialog, int which) {
+										checkPermission1("takephoto",PermissionUitls.PERMISSION_MICROPHONE_CODE,checkPermissinos);
+									}
+								}).show();
+					} else {
+						stopPlaying();// 开始录音时如果有正在播放的语言，则停止
+						startRecording();
+					}
+				}
+
 					break;
 				case MotionEvent.ACTION_CANCEL:
 					Logger.e("event.getAction()==MotionEvent.ACTION_CANCEL");
@@ -419,21 +472,43 @@ public class NoteVoiceActivity extends BaseActivity implements OnClickListener {
 	private OnClickListener clickListener = new OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			startPlayingAnimation(requestVoiceIV);
-			Logger.e("filePath:" + filePath);
-			PlaySound.playSound(null, filePath, new PlayCompleteI() {
-				@Override
-				public void onPlayComplete() {
-					if (animDrawable != null) {
-						animDrawable.stop();
-					}
-					if (requestVoiceIV != null) {
-						requestVoiceIV.setImageResource(R.drawable.chatto_voice_playing_f3_);
-					}
-				}
-			}, null);
+
+			final String checkPermissinos[] = {
+					Manifest.permission.WRITE_EXTERNAL_STORAGE};
+			PermissionUitls.mContext = NoteVoiceActivity.this;
+			if(!PermissionUitls.isGetAllPermissionsByList(checkPermissinos) ) {
+				new AlertDialog
+						.Builder(NoteVoiceActivity.this)
+						.setTitle("提示信息")
+						.setMessage("该功能需要您接受应用对一些关键权限（麦克）的申请，如之前拒绝过，可到手机系统的应用管理授权设置界面再次设置。")
+						.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								checkPermission2("takephoto",PermissionUitls.PERMISSION_STORAGE_CODE,checkPermissinos);
+							}
+						}).show();
+			} else {
+				playAudio();
+			}
+
 		}
 	};
+
+	private void playAudio() {
+		startPlayingAnimation(requestVoiceIV);
+		Logger.e("filePath:" + filePath);
+		PlaySound.playSound(null, filePath, new PlayCompleteI() {
+			@Override
+			public void onPlayComplete() {
+				if (animDrawable != null) {
+					animDrawable.stop();
+				}
+				if (requestVoiceIV != null) {
+					requestVoiceIV.setImageResource(R.drawable.chatto_voice_playing_f3_);
+				}
+			}
+		}, null);
+	}
 
 	/**
 	 * 开始播放动画
