@@ -11,55 +11,200 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="affd73f4-7172-437d-9947-0328fa0e934c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xhdpi/bg_shucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xhdpi/book_detail_bar_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xhdpi/speaker_cancel_text_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xhdpi/voice_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xxhdpi/bg_shucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xxhdpi/bg_shucheng_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/drawable-xxhdpi/share_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/bg_shucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/voice_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/share_bg.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PermissionUitls.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PhotoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PermissionUitls.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$3$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$anim.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$color.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$dimen.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$drawable.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$id.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$layout.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$raw.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$string.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$style.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/ngc/corelib/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$anim.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$attr.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$color.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$dimen.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$drawable.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$id.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$layout.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$menu.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$raw.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$string.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$style.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$styleable.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/env/BaseActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/env/BaseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/env/BaseFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/env/BaseFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookDetailActivity$6.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookDetailActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookDetailActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookListActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookSearchActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/BookSearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChangePassActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChangePassActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ChildInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/FavorListActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/FavorListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ForgotActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/ForgotActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$3.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/InfoEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/media/AudioRecordMedia$AudioRecorder.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/media/AudioRecordMedia$AudioRecorder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$3.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$4.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MulBookListActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/MulBookListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteBookListActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteBookListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteDetailActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$3.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$4.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$5.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$STATE_RECORD.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity$STATE_RECORD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteVoiceActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$3.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/NoteWriteActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/RegistActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/RegistActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/SettingActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/SettingActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/activity/WelcomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookCityListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookCityListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookDetailViewPagerAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookDetailViewPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookFaverListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookFaverListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookListAdapter$1$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookListAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookNoteListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookNoteListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookRangeListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/BookRangeListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/CopyOfBookRangeListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/CopyOfBookRangeListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter$1$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter$1$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter$1.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListVoiceAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListWriteAdapter.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/adapter/NoteListWriteAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BookCityFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BookCityFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BookCityFragmentcopy.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BookCityFragmentcopy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BooksFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BooksFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BooksFragmentcopy.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/BooksFragmentcopy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/CopyOfBooksFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/CopyOfBooksFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/CopyOfNoteFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/CopyOfNoteFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/Copy_2_of_BooksFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/Copy_2_of_BooksFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/MemberFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/MemberFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteVoiceFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteVoiceFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteWordFragment.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/module/fragment/NoteWordFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/ImageDisplayer.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/ImageDisplayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/media/SoundView.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/utils/media/SoundView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ChangeNameDialog.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ChangeNameDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ShareDialog$OnClickListener.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ShareDialog$OnClickListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ShareDialog.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/ShareDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/popup/TitlePopup$2.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/popup/TitlePopup$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/popup/TitlePopup.class" afterPath="$PROJECT_DIR$/read/build/intermediates/classes/debug/com/read/mobile/views/popup/TitlePopup.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/read/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/classes.jar" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$anim.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$attr.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$color.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$dimen.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$drawable.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$id.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$layout.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$raw.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$string.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$style.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/utils/PicDialogUtils$1.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/utils/PicDialogUtils$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/utils/PicDialogUtils.class" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/utils/PicDialogUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/outputs/aar/read_ngc_core_lib-debug.aar" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/outputs/aar/read_ngc_core_lib-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/outputs/aar/read_ngc_core_lib-release.aar" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/outputs/aar/read_ngc_core_lib-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_read_ngc_core_lib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build.gradle" afterPath="$PROJECT_DIR$/read/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/generated/source/r/debug/com/ngc/corelib/R.java" afterPath="$PROJECT_DIR$/read/build/generated/source/r/debug/com/ngc/corelib/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/generated/source/r/debug/com/read/mobile/R.java" afterPath="$PROJECT_DIR$/read/build/generated/source/r/debug/com/read/mobile/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/read/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/read/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/read/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/read/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/read/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/read/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/read.iml" afterPath="$PROJECT_DIR$/read/read.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/constants/Contacts.java" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/constants/Contacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/read/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/media/AudioRecordMedia.java" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/media/AudioRecordMedia.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java" afterPath="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/read/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build.gradle" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/androidTest/debug/com/ngc/corelib/R.java" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/androidTest/debug/com/ngc/corelib/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/androidTest/debug/com/ngc/corelib/test/R.java" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/androidTest/debug/com/ngc/corelib/test/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/debug/com/ngc/corelib/R.java" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/debug/com/ngc/corelib/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/release/com/ngc/corelib/R.java" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/generated/source/r/release/com/ngc/corelib/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/anim.json" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/debug/R.txt" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/R.txt" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/res/values/values.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/bundles/default/res/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/incremental/packageReleaseResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/read_ngc_core_lib/build/intermediates/symbols/androidTest/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/read_ngc_core_lib.iml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/read_ngc_core_lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PicDialogUtils.java" afterPath="$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PicDialogUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read_ngc_core_lib/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/read_ngc_core_lib/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Read.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +228,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Read-android" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -92,91 +250,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="speaker_cancel_text_bg.9.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.9.png">
-          <provider editor-type-id="images">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="ninepatcheditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book_detail_bar_red.9.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_red.9.png">
-          <provider editor-type-id="images">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="ninepatcheditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book_detail_bar_white.9.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_white.9.png">
-          <provider editor-type-id="images">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="ninepatcheditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book_detail_bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book_detail_bg_.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bg_.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mm_title_functionframe_line.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/mm_title_functionframe_line.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="voice_bg.9.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/voice_bg.9.png">
-          <provider editor-type-id="images">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="ninepatcheditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeNameDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/views/ChangeNameDialog.java">
+      <file leaf-file-name="NoteWriteActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="352">
+              <caret line="374" column="17" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bg_shucheng.9.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng.9.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="ReflectUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/ReflectUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
-          <provider editor-type-id="ninepatcheditor">
+        </entry>
+      </file>
+      <file leaf-file-name="PicDialogUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PicDialogUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2370">
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding>
+                <element signature="e#3409#3410#0" expanded="true" />
+                <element signature="e#3431#3432#0" expanded="true" />
+                <element signature="e#4540#4541#0" expanded="true" />
+                <element signature="e#4562#4563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoEditActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1058">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switch_btn_pressed.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/res/drawable-xhdpi/switch_btn_pressed.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="PhotoUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PhotoUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Intent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/sources/android-25/android/content/Intent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="5881" column="15" selection-start-line="5881" selection-start-column="15" selection-end-line="5881" selection-end-column="15" />
+              <folding>
+                <element signature="e#271991#271992#0" expanded="true" />
+                <element signature="e#272019#272020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/read/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -300,6 +481,11 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'Read-android' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
@@ -324,6 +510,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -422,6 +618,16 @@
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -436,6 +642,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugAndroidTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractDebugAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -581,6 +792,11 @@
                 <option name="name" value="javaPreCompileReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileRelease" />
               </ExternalTaskPojo>
@@ -619,6 +835,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="validateSigningDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractReleaseAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -736,6 +957,11 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -747,6 +973,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javaPreCompileDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
@@ -765,6 +996,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
@@ -986,6 +1222,11 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':read'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="tasks" />
@@ -997,6 +1238,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1089,6 +1340,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportV42531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
@@ -1232,6 +1493,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="javaPreCompileReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
@@ -1380,6 +1646,11 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -1391,6 +1662,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="javaPreCompileDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
@@ -1409,6 +1685,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
                 <option name="name" value="transformClassesWithDexForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
@@ -1652,6 +1933,11 @@
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from project ':read_ngc_core_lib'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="tasks" />
@@ -1671,6 +1957,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1765,12 +2061,27 @@
                 <option name="name" value="compileDebugUnitTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportV42531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="preDebugAndroidTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="extractDebugAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
@@ -1791,6 +2102,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="compileReleaseShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
@@ -1911,6 +2226,11 @@
                 <option name="name" value="javaPreCompileReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="javaPreCompileRelease" />
               </ExternalTaskPojo>
@@ -1943,8 +2263,17 @@
                 <option name="name" value="processDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="extractReleaseAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="compileDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
@@ -2045,6 +2374,11 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="generateDebugResValues" />
               </ExternalTaskPojo>
@@ -2058,6 +2392,11 @@
                 <option name="name" value="javaPreCompileDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2531Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for the debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="testDebugUnitTest" />
@@ -2066,6 +2405,11 @@
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
                 <option name="name" value="connectedAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.3.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2531Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/read_ngc_core_lib" />
@@ -2228,7 +2572,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6041230383000" />
+        <entry key="$PROJECT_DIR$" value="6050905078000" />
         <entry key="$USER_HOME$/youjian.wu/projects/AIPortal" value="6003653460000" />
       </map>
     </option>
@@ -2605,24 +2949,29 @@
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/read_ngc_core_lib/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/read/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/read_ngc_core_lib/build.gradle" />
-        <option value="$PROJECT_DIR$/read/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/read_ngc_core_lib/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java" />
         <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/fragment/BookCityFragment.java" />
-        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java" />
         <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/media/AudioRecordMedia.java" />
         <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/constants/Contacts.java" />
+        <option value="$PROJECT_DIR$/read/build.gradle" />
+        <option value="$PROJECT_DIR$/read/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PermissionUitls.java" />
+        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java" />
+        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java" />
+        <option value="$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PermissionUitls.java" />
+        <option value="$PROJECT_DIR$/read_ngc_core_lib/build.gradle" />
+        <option value="$PROJECT_DIR$/read_ngc_core_lib/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PicDialogUtils.java" />
+        <option value="$PROJECT_DIR$/read/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="23" />
+    <option name="x" value="34" />
+    <option name="y" value="26" />
     <option name="width" value="1242" />
-    <option name="height" value="777" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -2649,8 +2998,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="read_ngc_core_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Read-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2709,309 +3115,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read_ngc_core_lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read_ngc_core_lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read_ngc_core_lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read_ngc_core_lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Read-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="read" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3025,6 +3128,12 @@
     <property name="DEBUGGABLE_PROCESS" value="com.read.mobile" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TakePicAndGallery-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ngc.corelib.utils" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.read">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -3283,28 +3392,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="23" width="1242" height="777" extended-state="6" />
+    <frame x="34" y="26" width="1242" height="774" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48411497" sideWeight="0.49708575" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19515885" sideWeight="0.19416666" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31458968" sideWeight="0.19416666" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28773978" sideWeight="0.5299539" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.50916666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35854766" sideWeight="0.49708575" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5431165" sideWeight="0.49708575" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4644478" sideWeight="0.49083334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24508321" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27382752" sideWeight="0.80583334" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34" sideWeight="0.47004607" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294412" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32583332" sideWeight="0.47004607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60060513" sideWeight="0.4904087" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4012158" sideWeight="0.4904087" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3457,12 +3566,6 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/BookSearchActivity.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/fragment/BooksFragment.java</url>
           <line>211</line>
           <properties />
@@ -3481,10 +3584,16 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/BookDetailActivity.java</url>
-          <line>327</line>
+          <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java</url>
+          <line>112</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/beans/ChangePasswdRequest.java</url>
@@ -3499,178 +3608,11 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/http/fileupload/FileHttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/beans/WriteNotesRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/BookSearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/beans/BookItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/arrow_right.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/sound_right.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/shujia_bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/radio_select.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/new_start_audio_record_normal.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/new_start_audio_record_pressed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6285">
-          <caret line="467" column="61" selection-start-line="467" selection-start-column="61" selection-end-line="467" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/http/fileupload/CopyOfUploadFileAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f2_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chat_voice_playing_f0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f1_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/chatto_voice_playing_f3_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/http/fileupload/CopyOfFileHttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/book_detail_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/share_bg.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng_.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/bg_shucheng.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_red.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_white.png" />
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/speaker_cancel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/sound_right_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/views/segmentcontrol/RadiusDrawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/bg_shucheng.9.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/voice_bg.9.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/layout/dialog_change_name.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3678,23 +3620,22 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/share_bg.9.png">
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng_.9.png">
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
     </entry>
@@ -3729,26 +3670,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xxhdpi/bg_shucheng.9.png">
-      <provider selected="true" editor-type-id="images">
+      <provider editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider editor-type-id="ninepatcheditor">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_red.9.png">
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/views/ChangeNameDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="105">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3758,10 +3698,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/book_detail_bar_white.9.png">
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
     </entry>
@@ -3776,19 +3716,295 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/speaker_cancel_text_bg.9.png">
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/src/main/res/drawable-xhdpi/voice_bg.9.png">
+      <provider selected="true" editor-type-id="ninepatcheditor">
+        <state />
+      </provider>
       <provider editor-type-id="images">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/res/layout/activity_note_voice.xml">
+      <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="69" column="47" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/sources/android-25/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="5485" column="60" selection-start-line="5485" selection-start-column="45" selection-end-line="5485" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/env/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/env/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/BookSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1344#1345#0" expanded="false" />
+            <element signature="e#1387#1388#0" expanded="false" />
+            <element signature="e#5079#5080#0" expanded="false" />
+            <element signature="e#5117#5118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/sources/android-25/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11010">
+          <caret line="862" column="29" selection-start-line="862" selection-start-column="29" selection-end-line="862" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0-sources.jar!/android/support/v4/content/FileProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5055">
+          <caret line="378" column="0" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/res/xml/file_paths.xml" />
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/sources/android-25/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="122" column="31" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0-sources.jar!/android/support/v4/content/ContextCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/AccessTokenKeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/BookDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/platforms/android-25/android.jar!/android/Manifest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="173" column="35" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteVoiceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="435" column="6" selection-start-line="435" selection-start-column="6" selection-end-line="435" selection-end-column="6" />
+          <folding>
+            <element signature="e#4765#4766#0" expanded="true" />
+            <element signature="e#4787#4788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/ChildInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/ImageDisplayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PermissionUitls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PermissionUitls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/ReflectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_ngc_core_lib/src/main/java/com/ngc/corelib/utils/PicDialogUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="e#3409#3410#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#4540#4541#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/NoteWriteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="374" column="17" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/utils/PhotoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/youjian.wu/common-lib/adt-bundle-mac-x86_64-20140702/sdk/sources/android-25/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5881" column="15" selection-start-line="5881" selection-start-column="15" selection-end-line="5881" selection-end-column="15" />
+          <folding>
+            <element signature="e#271991#271992#0" expanded="true" />
+            <element signature="e#272019#272020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/src/main/java/com/read/mobile/module/activity/InfoEditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1058">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

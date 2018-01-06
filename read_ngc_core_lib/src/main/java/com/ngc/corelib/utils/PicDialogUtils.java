@@ -4,10 +4,16 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import android.Manifest;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.ContentValues;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,13 +29,17 @@ public class PicDialogUtils {
 
 	// *******************************************请求***********************************************
 
-	private static final String filePath = "/storage/sdcard0/need/img";
+	private static String filePath = "/storage/sdcard0/need/img";
 	private static String fileName;
 
 	/**
 	 * 显示dialog
 	 */
 	public static void showOpenPhotoDialog(Activity activity) {
+
+		filePath = Environment.getExternalStorageDirectory() +
+				File.separator + Environment.DIRECTORY_DCIM + File.separator;
+
 		File file = new File(filePath);
 		if (!file.exists()) {
 			file.mkdirs();
@@ -108,16 +118,77 @@ public class PicDialogUtils {
 
 	private static void startCamearPicCut(Activity activity) {
 		// TODO Auto-generated method stub
-		// 调用系统的拍照功能
-		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
-		intent.putExtra("camerasensortype", 2);// 调用前置摄像头
-		intent.putExtra("autofocus", true);// 自动对焦
-		intent.putExtra("fullScreen", false);// 全屏
-		intent.putExtra("showActionIcons", false);
-		// 指定调用相机拍照后照片的储存路径
-		intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(tempFile));
-		activity.startActivityForResult(intent, PHOTO_PICKED_CAMARE_DATA);
+		final String checkPermissinos[] = {Manifest.permission.CAMERA,
+				Manifest.permission.WRITE_EXTERNAL_STORAGE};
+		PermissionUitls.mContext = activity;
+		if(!PermissionUitls.isGetAllPermissionsByList(checkPermissinos) ) {
+			new AlertDialog
+					.Builder(activity)
+					.setTitle("提示信息")
+					.setMessage("该功能需要您接受应用对一些关键权限（拍照）的申请，如之前拒绝过，可到手机系统的应用管理授权设置界面再次设置。")
+					.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							checkPermission("takephoto",PermissionUitls.PERMISSION_CAMERA_CODE,checkPermissinos);
+						}
+					}).show();
+		} else {
+			takePhoto();
+		}
+	}
+
+	//请求相机权限
+	private static void checkPermission(final String functionName, int permissionCode, String[] permissions) {
+		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
+			@Override
+			public void permissionAgree() {
+				takePhoto();
+			}
+
+			@Override
+			public void permissionReject() {
+
+			}
+		};
+		PermissionUitls permissionUitls = PermissionUitls.getInstance(null, permissionListener);
+		permissionUitls.permssionCheck(permissionCode,permissions);
+	}
+
+	public static void takePhoto() {
+
+//		// 调用系统的拍照功能
+//		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+//
+//		intent.putExtra("camerasensortype", 2);// 调用前置摄像头
+//		intent.putExtra("autofocus", true);// 自动对焦
+//		intent.putExtra("fullScreen", false);// 全屏
+//		intent.putExtra("showActionIcons", false);
+//		// 指定调用相机拍照后照片的储存路径
+//		intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(tempFile));
+//		activity.startActivityForResult(intent, PHOTO_PICKED_CAMARE_DATA);
+
+
+		String state = Environment.getExternalStorageState();
+		if (state.equals(Environment.MEDIA_MOUNTED)) {
+
+			Intent openCameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+			openCameraIntent.putExtra("camerasensortype", 2);// 调用前置摄像头
+			openCameraIntent.putExtra("autofocus", true);// 自动对焦
+			openCameraIntent.putExtra("fullScreen", false);// 全屏
+			openCameraIntent.putExtra("showActionIcons", false);
+			if (Build.VERSION.SDK_INT<24){
+				Uri imageUri = Uri.fromFile(tempFile);
+				openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+			}else{
+				//兼容android7.0 使用共享文件的形式
+				ContentValues contentValues = new ContentValues(1);
+				contentValues.put(MediaStore.Images.Media.DATA, tempFile.getAbsolutePath());
+				Uri uri = activity.getApplication().getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues);
+				openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+			}
+			activity.startActivityForResult(openCameraIntent, PHOTO_PICKED_CAMARE_DATA);
+		}
 	}
 
 	private static void startImageCaptrue(Activity activity) {

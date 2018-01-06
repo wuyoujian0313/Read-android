@@ -6,9 +6,14 @@ import java.util.List;
 
 import org.apache.http.message.BasicNameValuePair;
 
+import android.Manifest;
+import android.app.AlertDialog;
+import android.content.ContentValues;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
 import android.os.Handler;
 import android.provider.MediaStore;
@@ -39,6 +44,7 @@ import com.read.mobile.constants.Contacts;
 import com.read.mobile.env.BaseActivity;
 import com.read.mobile.observer.ReadAgent;
 import com.read.mobile.utils.ImageDisplayer;
+import com.read.mobile.utils.PermissionUitls;
 import com.read.mobile.utils.SaveUtils;
 import com.read.mobile.utils.media.AudioMedia;
 import com.read.mobile.utils.media.AudioRecordMedia;
@@ -46,7 +52,7 @@ import com.read.mobile.utils.media.PlaySound;
 import com.read.mobile.utils.media.RecorderUtils.PlayCompleteI;
 import com.read.mobile.utils.media.SoundView;
 
-public class NoteVoiceActivity extends BaseActivity {
+public class NoteVoiceActivity extends BaseActivity implements OnClickListener {
 	private Button selectBtn;
 	private ImageView imgIV;
 	private TextView nameTV;
@@ -113,10 +119,44 @@ public class NoteVoiceActivity extends BaseActivity {
 			break;
 		}
 		case R.id.note_takephoto_btn: {
-			takePhoto();
+
+			final String checkPermissinos[] = {Manifest.permission.CAMERA,
+					Manifest.permission.WRITE_EXTERNAL_STORAGE};
+			PermissionUitls.mContext = this;
+			if(!PermissionUitls.isGetAllPermissionsByList(checkPermissinos) ) {
+				new AlertDialog
+						.Builder(this)
+						.setTitle("提示信息")
+						.setMessage("该功能需要您接受应用对一些关键权限（拍照）的申请，如之前拒绝过，可到手机系统的应用管理授权设置界面再次设置。")
+						.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								checkPermission("takephoto",PermissionUitls.PERMISSION_CAMERA_CODE,checkPermissinos);
+							}
+						}).show();
+			} else {
+				takePhoto();
+			}
 		}
 			break;
 		}
+	}
+
+	//请求相机权限
+	private void checkPermission(final String functionName, int permissionCode, String[] permissions) {
+		PermissionUitls.PermissionListener permissionListener = new PermissionUitls.PermissionListener() {
+			@Override
+			public void permissionAgree() {
+				takePhoto();
+			}
+
+			@Override
+			public void permissionReject() {
+
+			}
+		};
+		PermissionUitls permissionUitls = PermissionUitls.getInstance(null, permissionListener);
+		permissionUitls.permssionCheck(permissionCode,permissions);
 	}
 
 	private void setInfo(BookItem bookItem) {
@@ -501,20 +541,35 @@ public class NoteVoiceActivity extends BaseActivity {
 	private static final int TAKE_PICTURE = 0x000000;
 
 	public void takePhoto() {
-		Intent openCameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-		File vFile = new File(Environment.getExternalStorageDirectory() + "/readtree/", String.valueOf(System
+		String filePath = Environment.getExternalStorageDirectory() +
+				File.separator + Environment.DIRECTORY_DCIM + File.separator;
+		File vFile = new File(filePath + "readImage" + File.separator , String.valueOf(System
 				.currentTimeMillis()) + ".jpg");
-		if (!vFile.exists()) {
-			File vDirPath = vFile.getParentFile();
-			vDirPath.mkdirs();
-		} else {
-			if (vFile.exists()) {
-				vFile.delete();
+
+		String state = Environment.getExternalStorageState();
+		if (state.equals(Environment.MEDIA_MOUNTED)) {
+			if (!vFile.exists()) {
+				File vDirPath = vFile.getParentFile();
+				vDirPath.mkdirs();
+			} else {
+				if (vFile.exists()) {
+					vFile.delete();
+				}
 			}
+			path = vFile.getAbsolutePath();
+
+			Intent openCameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+			if (Build.VERSION.SDK_INT<24){
+				Uri imageUri = Uri.fromFile(vFile);
+				openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+			}else{
+				//兼容android7.0 使用共享文件的形式
+				ContentValues contentValues = new ContentValues(1);
+				contentValues.put(MediaStore.Images.Media.DATA, path);
+				Uri uri = getApplication().getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, contentValues);
+				openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+			}
+			startActivityForResult(openCameraIntent, TAKE_PICTURE);
 		}
-		path = vFile.getPath();
-		Uri cameraUri = Uri.fromFile(vFile);
-		openCameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, cameraUri);
-		startActivityForResult(openCameraIntent, TAKE_PICTURE);
 	}
 }

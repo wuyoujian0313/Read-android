@@ -1,3 +1,8 @@
+build
+read/build
+read_ngc_core_lib/build
 
-/build/*
-/read/build/*
+
+read_ngc_core_lib/build/intermediates/classes/release/com/ngc/corelib/R$raw.class
+
+.gradle/3.3/taskArtifacts/fileHashes.bin

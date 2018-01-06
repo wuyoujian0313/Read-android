@@ -10,7 +10,11 @@ import org.apache.http.message.BasicNameValuePair;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.provider.MediaStore;
+import android.support.v4.content.FileProvider;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -36,6 +40,7 @@ import com.read.mobile.beans.UserUploadImgResult;
 import com.read.mobile.constants.Contacts;
 import com.read.mobile.env.BaseActivity;
 import com.read.mobile.observer.ReadAgent;
+import com.read.mobile.utils.PhotoUtils;
 import com.read.mobile.utils.SaveUtils;
 
 public class InfoEditActivity extends BaseActivity {
@@ -46,6 +51,10 @@ public class InfoEditActivity extends BaseActivity {
 
 	private ImageLoader loader;
 	private DisplayImageOptions options;
+
+	private File fileCropUri = new File(Environment.getExternalStorageDirectory().getPath() + "/crop_photo.jpg");
+	private Uri cropImageUri;
+
 
 	@Override
 	protected int getLayoutResID() {
@@ -101,8 +110,15 @@ public class InfoEditActivity extends BaseActivity {
 			startPhotoZoom(Uri.fromFile(PicDialogUtils.getFile()), 150);
 			break;
 		case PHOTO_REQUEST_CUT:
-			if (data != null) {
-				setPicToView(data);
+			try {
+				Bitmap photo = MediaStore.Images.Media.getBitmap(this.getContentResolver(), cropImageUri);
+				photoIV.setImageBitmap(BitmapUtils.getRoundedCornerBitmap(photo, 180));
+				if (PicDialogUtils.getFile().exists()) {
+					PicDialogUtils.getFile().delete();
+				}
+				save(photo, new File(PicDialogUtils.getFilePath()));
+			} catch (Exception e) {
+				e.printStackTrace();
 			}
 			break;
 		}
@@ -111,34 +127,12 @@ public class InfoEditActivity extends BaseActivity {
 	private static final int PHOTO_REQUEST_CUT = 3;// 结果
 
 	private void startPhotoZoom(Uri uri, int size) {
-		Intent intent = new Intent("com.android.camera.action.CROP");
-		intent.setDataAndType(uri, "image/*");
-		// crop为true是设置在开启的intent中设置显示的view可以剪裁
-		intent.putExtra("crop", "true");
+		cropImageUri = Uri.fromFile(fileCropUri);
+		Uri newUri = Uri.parse(PhotoUtils.getPath(this, uri));
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
+			newUri = FileProvider.getUriForFile(this, "com.read.mobile.fileprovider", new File(newUri.getPath()));
+		PhotoUtils.cropImageUri(this, newUri, cropImageUri, 1, 1, size, size, PHOTO_REQUEST_CUT);
 
-		// aspectX aspectY 是宽高的比例
-		intent.putExtra("aspectX", 1);
-		intent.putExtra("aspectY", 1);
-
-		// outputX,outputY 是剪裁图片的宽高
-		intent.putExtra("outputX", size);
-		intent.putExtra("outputY", size);
-		intent.putExtra("return-data", true);
-
-		startActivityForResult(intent, PHOTO_REQUEST_CUT);
-	}
-
-	// 将进行剪裁后的图片显示到UI界面上
-	private void setPicToView(Intent picdata) {
-		Bundle bundle = picdata.getExtras();
-		if (bundle != null) {
-			final Bitmap photo = bundle.getParcelable("data");
-			photoIV.setImageBitmap(BitmapUtils.getRoundedCornerBitmap(photo, 180));
-			if (PicDialogUtils.getFile().exists()) {
-				PicDialogUtils.getFile().delete();
-			}
-			save(photo, new File(PicDialogUtils.getFilePath()));
-		}
 	}
 
 	/**

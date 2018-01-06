@@ -22,5 +22,7 @@
     <string name="umeng_fb_reply_date_default">2013年3月12日 13:24:00</string>
     <string name="umeng_fb_send">发送</string>
     <string name="umeng_fb_title">用户反馈</string>
+    <string name="PermissionDialog_setting">Please exit the app and add writeExternalStorage permission in setting page</string>
+    <string name="PermissionDialog_Needful">Need authorized writeExternalStorage permissions, app will exit</string>
 
 </resources>

@@ -6,4 +6,6 @@
     <string name="action_settings">Settings</string>
     <string name="more">更多</string>
 
+    <string name="PermissionDialog_setting">Please exit the app and add writeExternalStorage permission in setting page</string>
+    <string name="PermissionDialog_Needful">Need authorized writeExternalStorage permissions, app will exit</string>
 </resources>
