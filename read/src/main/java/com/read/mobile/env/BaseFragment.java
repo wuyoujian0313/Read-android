@@ -29,8 +29,8 @@ public abstract class BaseFragment extends Fragment implements OnClickListener {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		view = inflater.inflate(getLayoutId(), null);
-		titleTv = (ImageView) findViewById(R.id.top_title_tv);
-		titleTv.setImageResource(getTitle(0));
+		//titleTv = (ImageView) findViewById(R.id.top_title_tv);
+		//titleTv.setImageResource(getTitle(0));
 		initViews();
 		return view;
 	}
@@ -66,12 +66,12 @@ public abstract class BaseFragment extends Fragment implements OnClickListener {
 	/**
 	 * 设置标题
 	 */
-	protected int getTitle(int resId) {
-		if (resId != 0) {
-			return resId;
-		}
-		return R.drawable.title_bar;
-	};
+//	protected int getTitle(int resId) {
+//		if (resId != 0) {
+//			return resId;
+//		}
+//		return R.drawable.title_bar;
+//	};
 
 	/**
 	 * 显示左侧返回按钮

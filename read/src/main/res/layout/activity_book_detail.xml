@@ -12,7 +12,7 @@
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="115dip"
-            android:background="@drawable/book_detail_bg_"
+            android:background="@drawable/book_detail_bg"
             android:scaleType="fitStart" >
         </ImageView>
 

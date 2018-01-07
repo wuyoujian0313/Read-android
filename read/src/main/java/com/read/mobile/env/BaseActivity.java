@@ -25,22 +25,22 @@ public abstract class BaseActivity extends com.ngc.corelib.env.BaseActivity {
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 		setContentView(getLayoutResID());
 		initData();
-		titleTv = (ImageView) findViewById(R.id.top_title_tv);
-		titleTv.setImageResource(getTitle(0));
+		//titleTv = (ImageView) findViewById(R.id.top_title_tv);
+		//titleTv.setImageResource(getTitle(0));
 
 		initViwes();
 
 	}
 
-	/**
-	 * 设置标题
-	 */
-	protected int getTitle(int resId) {
-		if (resId != 0) {
-			return resId;
-		}
-		return R.drawable.title_bar;
-	};
+//	/**
+//	 * 设置标题
+//	 */
+//	protected int getTitle(int resId) {
+//		if (resId != 0) {
+//			return resId;
+//		}
+//		return R.drawable.title_bar;
+//	};
 
 	protected void initData() {
 
